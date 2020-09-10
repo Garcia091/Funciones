@@ -8,11 +8,5 @@ function tablasMultiplicar(num){
 
  const fs = require('fs'); 
 
-fs.writeFile(`actividad/Tabla-${base}.txt`,data,(err)=>{
-  if(err) throw err;
-
-  console.log('El archivo se creo con exito')
-})
-}
-
+//Silvia
 exports.tablasMultiplicar = tablasMultiplicar;
